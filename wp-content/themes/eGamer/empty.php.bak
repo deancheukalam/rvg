@@ -1,0 +1,32 @@
+<?php
+/*
+Template Name: Empty
+*/
+?>
+
+
+<?php
+/**
+ * The template for displaying all pages.
+ *
+ * This is the template that displays all pages by default.
+ * Please note that this is the wordpress construct of pages
+ * and that other 'pages' on your wordpress site will use a
+ * different template.
+ *
+ * @package WordPress
+ * @subpackage Twenty_Ten
+ * @since Twenty Ten 1.0
+ */
+
+?>
+
+<?php }; ?>
+            <h1 class="post-title" style="margin-top: 13px;"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf(__('Permanent Link to %s','eGamer'), get_the_title()) ?>">
+                <?php the_title(); ?>
+                </a></h1>
+            <?php the_content(); ?>
+                      <?php if (get_option('egamer_integration_single_bottom') <> '' && get_option('egamer_integrate_singlebottom_enable') == 'on') { ?>	
+                  <div style="clear: both;"></div>
+		  <?php echo(get_option('egamer_integration_single_bottom')); ?>
+          <?php }; ?>

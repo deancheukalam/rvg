@@ -1,0 +1,22 @@
+  # Use PHP 7.4 (automatically asigned to new domains since ~Sept 2020)
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
+</IfModule>
+
+# This file was updated by Duplicator Pro on 2022-02-07 14:51:34.
+# See the original_files_ folder for the original source_site_htaccess file.
+# BEGIN WordPress
+# De richtlijnen (regels) tussen "BEGIN WordPress" en "END WordPress" worden
+# dynamisch gegenereerd en zouden alleen aangepast mogen worden via WordPress filters.
+# Alle wijzigingen aan de richtlijnen tussen deze markeringen worden overschreven.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /remyvastgoed/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /remyvastgoed/index.php [L]
+</IfModule>
+
+# END WordPress

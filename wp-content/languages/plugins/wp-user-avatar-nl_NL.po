@@ -1,0 +1,348 @@
+# Translation of Plugins - User Registration, Login Form, User Profile &amp; Membership – ProfilePress (Formerly WP User Avatar) - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - User Registration, Login Form, User Profile &amp; Membership – ProfilePress (Formerly WP User Avatar) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-16 13:13:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - User Registration, Login Form, User Profile &amp; Membership – ProfilePress (Formerly WP User Avatar) - Stable (latest release)\n"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:131
+#: deprecated/wp-user-avatar/includes/wpua-functions.php:65
+#: deprecated/wp-user-avatar/includes/wpua-functions.php:73
+#: deprecated/wp-user-avatar/includes/wpua-functions.php:78
+#: deprecated/wp-user-avatar/includes/wpua-functions.php:131
+#: src/Classes/ImageUploader.php:49
+#: src/ShortcodeParser/MyAccount/MyAccountTag.php:496
+msgid "Profile Picture"
+msgstr "Profiel afbeelding"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:172
+msgid "URL"
+msgstr "URL"
+
+#: src/Themes/DragDrop/AbstractMemberDirectoryTheme.php:244
+#: src/Themes/DragDrop/AbstractMemberDirectoryTheme.php:834
+msgid "Search"
+msgstr "Zoeken"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:167
+#: src/ContentProtection/views/view.access-condition.php:109
+msgid "Custom URL"
+msgstr "Aangepaste URL"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:156
+#: src/Themes/DragDrop/AbstractBuildScratch.php:416
+msgid "Center"
+msgstr "Gecentreerd"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:153
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:154
+msgid "wp_user_avatar_align"
+msgstr "wp_user_avatar_align"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:157
+#: src/Themes/DragDrop/AbstractBuildScratch.php:356
+#: src/Themes/DragDrop/AbstractBuildScratch.php:415
+msgid "Left"
+msgstr "Links"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:158
+#: src/Themes/DragDrop/AbstractBuildScratch.php:357
+#: src/Themes/DragDrop/AbstractBuildScratch.php:417
+msgid "Right"
+msgstr "Rechts"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:163
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:164
+msgid "wp_user_avatar_link"
+msgstr "wp_user_avatar_link"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:166
+msgid "Image File"
+msgstr "Afbeelding Bestand"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:171
+msgid "wp_user_avatar_link_external_section"
+msgstr "wp_user_avatar_link_external_section"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:172
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:173
+msgid "wp_user_avatar_link_external"
+msgstr "wp_user_avatar_link_external"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:177
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:178
+msgid "wp_user_avatar_target"
+msgstr "wp_user_avatar_target"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:178
+msgid "Open link in a new window"
+msgstr "Open link in een nieuw scherm"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:182
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:183
+msgid "wp_user_avatar_caption"
+msgstr "wp_user_avatar_caption"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:182
+msgid "Caption"
+msgstr "Omschrijving"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:191
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:192
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:193
+msgid "wp_user_avatar_upload"
+msgstr "wp_user_avatar_upload"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:153
+msgid "Alignment"
+msgstr "Uitlijning"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:163
+msgid "Link To"
+msgstr "Link naar"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:187
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:197
+msgid "Insert into Post"
+msgstr "Invoegen in bericht"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:136
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:148
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/EditProfile/ShowProfilePicture.php:30
+msgid "Size"
+msgstr "Grootte"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-shortcode.php:202
+#: src/Themes/DragDrop/AbstractTheme.php:113
+msgid "Update Profile"
+msgstr "Profiel bijwerken"
+
+#: src/Admin/SettingsPages/FormList.php:238
+#: src/ContentProtection/WPListTable.php:84
+msgid "Edit"
+msgstr "Bewerk"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-widget.php:56
+#: src/Widgets/Form.php:65 src/Widgets/TabbedWidget.php:463
+#: src/Widgets/UserPanel.php:74
+msgid "Title:"
+msgstr "Titel:"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-widget.php:65
+msgid "Automatically add paragraphs"
+msgstr "Voeg automatisch paragrafen toe"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:141
+#: src/Themes/DragDrop/AbstractBuildScratch.php:341
+msgid "Medium"
+msgstr "Gemiddeld"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-shortcode.php:177
+msgid "Profile updated."
+msgstr "Profiel bijgewerkt."
+
+#: deprecated/wp-user-avatar/includes/wpua-functions.php:75
+#: deprecated/wp-user-avatar/includes/wpua-functions.php:81
+msgid "Image"
+msgstr "Afbeelding"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:253
+#: src/Admin/SettingsPages/EmailSettings/DefaultTemplateCustomizer.php:283
+#: src/ShortcodeParser/MyAccount/edit-profile.tmpl.php:98
+#: src/ShortcodeParser/MyAccount/edit-profile.tmpl.php:117
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-widget.php:13
+msgid "Insert"
+msgstr "Invoegen"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:160
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:142
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:143
+msgid "Custom"
+msgstr "Aangepast"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:140
+#: src/Themes/DragDrop/AbstractBuildScratch.php:342
+msgid "Large"
+msgstr "Groot"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:79
+#: src/Themes/DragDrop/AbstractBuildScratch.php:83
+#: src/Themes/DragDrop/AbstractBuildScratch.php:224
+#: src/Themes/DragDrop/AbstractBuildScratch.php:499
+msgid "Width"
+msgstr "Breedte"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-widget.php:60
+msgid "Description:"
+msgstr "Beschrijving:"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:156
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:139
+msgid "Original Size"
+msgstr "Orginele grootte"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:163
+msgid "Remove Image"
+msgstr "Afbeelding verwijderen"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:253
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:166
+msgid "Undo"
+msgstr "Ongedaan maken"
+
+#: src/ContentProtection/ContentConditions.php:232
+#: src/ContentProtection/ContentConditions.php:245
+#: src/ContentProtection/ContentConditions.php:257
+#: src/ContentProtection/ContentConditions.php:331
+#: src/ContentProtection/ContentConditions.php:367
+msgid "Select %s"
+msgstr "Selecteer %s"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-widget.php:13
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:193
+msgid "[avatar_upload]"
+msgstr "[avatar_upload]"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:146
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:192
+msgid "Upload"
+msgstr "Upload"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:150
+msgid "<code>jpg jpeg png gif</code>"
+msgstr "<code>jpg jpeg png gif</code>"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:205
+msgid "This file is not an image. Please try another."
+msgstr "Dit bestand is geen afbeelding. Probeer een andere."
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:81
+msgid "Height"
+msgstr "Hoogte"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:126
+msgid "User Name"
+msgstr "Gebruikersnaam"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:126
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:127
+msgid "wp_user_avatar_user"
+msgstr "wp_user_avatar_user"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:136
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:137
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:149
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:183
+msgid "wp_user_avatar_size"
+msgstr "wp_user_avatar_size"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:147
+msgid "wp_user_avatar_size_number_section"
+msgstr "wp_user_avatar_size_number_section"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:148
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:149
+msgid "wp_user_avatar_size_number"
+msgstr "wp_user_avatar_size_number"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:213
+msgid "Unable to create directory %s. Is its parent directory writable by the server?"
+msgstr "Aanmaken van de directory %s is mislukt. Is de hoofd directory schrijfbaar op de server?"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:209
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:235
+msgid "Memory exceeded. Please try another smaller file."
+msgstr "Geheugen verbruikt. Probeer een kleiner bestand."
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:102
+msgid "Disable Gravatar and use only local avatars"
+msgstr "Gravatar niet gebruiken en gebruik alleen lokale avatars"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:36
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:68
+msgid "%s exceeds the maximum upload size for this site."
+msgstr "%s is groter dan de maximaal toegestane bestandsgrootte."
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:75
+msgid "Resize avatars on upload"
+msgstr "Avatar formaat wijzigen bij het uploaden"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:85
+msgid "Crop avatars to exact dimensions"
+msgstr "Pas avatars aan aan de juiste dimensies"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:149
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:38
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:70
+msgid "Maximum upload file size: %d%s."
+msgstr "Maximale upload-grootte: %d%s."
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:150
+msgid "Allowed Files"
+msgstr "Toegestane bestanden"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:124
+msgid "For users without a custom avatar of their own, you can either display a generic logo or a generated one based on their e-mail address."
+msgstr "Voor gebruikers zonder eigen avatar kun je een logo weergeven dat gemaakt word gebaseerd op hun e-mailadres."
+
+#: src/Admin/SettingsPages/DragDropBuilder/FieldBase.php:89
+#: src/Admin/SettingsPages/DragDropBuilder/FieldBase.php:232
+#: src/Admin/SettingsPages/GeneralSettings.php:29
+#: src/Admin/SettingsPages/GeneralSettings.php:30
+#: src/Classes/Miscellaneous.php:17
+msgid "Settings"
+msgstr "Instellingen"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:216
+msgid "MonsterID (Generated)"
+msgstr "MonsterID (gegenereerd)"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:211
+msgid "Mystery Man"
+msgstr "Mysterieuze Man"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:212
+msgid "Blank"
+msgstr "Leeg"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:213
+msgid "Gravatar Logo"
+msgstr "Gravatar Logo"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:214
+msgid "Identicon (Generated)"
+msgstr "Identicon (Gegenereerd)"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:215
+msgid "Wavatar (Generated)"
+msgstr "Wavatar (Gegenereerd)"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:217
+msgid "Retro (Generated)"
+msgstr "Retro (Gegenereerd)"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:252
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:140
+msgid "Choose Image"
+msgstr "Kies afbeelding"
+
+#. Plugin Name of the plugin
+msgid "ProfilePress"
+msgstr "ProfilePress"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://profilepress.net"
+msgstr "https://profilepress.net"
