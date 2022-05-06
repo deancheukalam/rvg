@@ -6053,7 +6053,7 @@ li.open-icon{
     }
     #top_section .mlabel {
         position: absolute;
-        right: 0;
+        right: 15px;
         bottom: 0;
         width: 235px;
         height: 24px;
@@ -6090,6 +6090,39 @@ li.open-icon{
         background: url(images/interne_fin.png) no-repeat bottom right;
         background-size: 215px 17px !important;
     }
+
+
+    #top_section .mlabel.verhuurd {
+        margin-right: 0;
+    }
+
+    #top_section .mlabel.verlaagd {
+        margin-right: 0;
+    }
+
+    #top_section .mlabel.verkocht {
+        margin-right: 0 !important;
+    }
+
+    #top_section .mlabel.uitverkocht {
+        background-size: 96px 17px !important;
+        margin-right: 0 !important;
+    }
+
+    #top_section .mlabel.onhold {
+        margin-right: 0 !important;
+    }
+
+    #top_section .mlabel.bewoond {
+        margin-right: 0 !important;
+    }
+
+    #top_section .verkocht_ovb {
+        margin-right: 0 !important;
+    }
+
+
+
     body.single-post #top_section .wpfp-span {
         /* position: relative!important; */
         display: block!important;
@@ -6146,7 +6179,8 @@ li.open-icon{
         float: right;
         margin-top: 20px;
         clear: right;
-        font-size: 16px!important;
+        margin-right: 1px;
+        font-size: 16px !important;
     }
     #top_section span.locatie {
         float: left;
@@ -6157,7 +6191,8 @@ li.open-icon{
     #top_section span.objectnummer {
         float: right;
         clear: right;
-        font-size: 16px!important;
+        margin-right: 1px;
+        font-size: 16px !important;
         color: #808080;
     }
     .kenmerken h2,
@@ -7095,36 +7130,6 @@ body.single-post #top_section .wpfp-span{
     /* margin-top: 20px; */
     /* margin-top: -10px !important; */
 }
-
-#top_section .mlabel.verhuurd{
-    margin-right: 4vw;
-}
-
-#top_section .mlabel.verlaagd{
-    margin-right: 4vw;
-}
-
-#top_section .mlabel.verkocht {
-    margin-right: 4vw !important;
-}
-
-#top_section .mlabel.uitverkocht{
-    background-size: 96px 17px !important;
-    margin-right: 4vw !important;
-}
-
-#top_section .mlabel.onhold{
-    margin-right: 4vw !important;
-}
-
-#top_section .mlabel.bewoond{
-    margin-right: 4vw !important;
-}
-
-#top_section .verkocht_ovb{
-    margin-right: 4vw !important;
-}
-
 
 body.single-post #top_section .wpfp-span{
     margin-left: 3vw;
