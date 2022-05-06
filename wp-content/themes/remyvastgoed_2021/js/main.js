@@ -1063,6 +1063,7 @@ jQuery(document).ready(function () {
             if (locatie.attr('value').trim() == 'Saramacca') jQuery(this).remove();
             if (locatie.attr('value').trim() == 'Wanica') jQuery(this).remove();
             if (locatie.attr('value').trim() == 'Nickerie') jQuery(this).remove();
+            if (locatie.attr('value').trim() == 'Coronie') jQuery(this).remove();
         }
     });
 
@@ -1072,6 +1073,8 @@ jQuery(document).ready(function () {
     jQuery('.drawer-item1 label:contains("Saramacca - "):first()').before('<label><input type="checkbox" value="Saramacca" name="2[]">Saramacca</label>');
     jQuery('.drawer-item1 label:contains("Wanica - "):first()').before('<label><input type="checkbox" value="Wanica" name="2[]">Wanica</label>');
     jQuery('.drawer-item1 label:contains("Nickerie - "):first()').before('<label><input type="checkbox" value="Nickerie" name="2[]">Nickerie</label>');
+    jQuery('.drawer-item1 label:contains("Coronie - "):first()').before('<label><input type="checkbox" value="Coronie" name="2[]">Coronie</label>');
+
 
 
     jQuery('.drawer-item1 input[value="Commewijne"]').click(function () {
@@ -1135,6 +1138,15 @@ jQuery(document).ready(function () {
         } else if (jQuery(this).is(':not(:checked)')) {
             jQuery('input[value^="Nickerie"]').prop('checked', false);
             jQuery('input[value^="Nickerie"]').parent('label').removeClass('checked');
+        }
+    });
+    jQuery('.drawer-item1 input[value="Coronie"]').click(function () {
+        if (jQuery(this).is(':checked')) {
+            jQuery('input[value^="Coronie"]').prop('checked', true);
+            jQuery('input[value^="Coronie"]').parent('label').addClass('checked');
+        } else if (jQuery(this).is(':not(:checked)')) {
+            jQuery('input[value^="Coronie"]').prop('checked', false);
+            jQuery('input[value^="Coronie"]').parent('label').removeClass('checked');
         }
     });
 

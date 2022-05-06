@@ -132,7 +132,7 @@
 
     gtag('config', 'UA-43396840-1');
     </script>
-
+    <script src="https://kit.fontawesome.com/529607b095.js" crossorigin="anonymous"></script>
 
 </head>
 
