@@ -14,7 +14,6 @@ $prev_url = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '';
         <li role="presentation"><a href="#tablocatie" aria-controls="tablocatie" role="tab" data-toggle="tab">Locatie</a></li>
         <li role="presentation"><a href="#tabdelen" aria-controls="tabdelen" role="tab" data-toggle="tab">Delen</a></li>
         <li role="presentation"><a href="#tabreageren" aria-controls="tabreageren" role="tab" data-toggle="tab">Reageren</a></li>
-        <li class="small_btn terug" role="presentation"><a href="#tabterug" aria-controls="tabterug" role="tab" data-toggle="tab">Terug</a></li>
     </ul>
 
     <!-- Tab panes -->
@@ -227,11 +226,10 @@ $prev_url = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '';
                     <li style="width: 159.5px;"><a href="#" class="small_btn noclick map">Locatie</a></li>
                     <li style="width: 149.5px;"><a href="#" class="small_btn noclick share">Delen</a></li>
                     <li style="width: 170.5px;"><a href="#" class="small_btn noclick mail">Reageren</a></li> -->
-                    <li style="width: 20%;"><a href="#" class="small_btn noclick photos">Foto's</a></li>
-                    <li style="width: 20%;"><a href="#" class="small_btn noclick map">Locatie</a></li>
-                    <li style="width: 20%;"><a href="#" class="small_btn noclick share">Delen</a></li>
-                    <li style="width: 20%;"><a href="#" class="small_btn noclick mail">Reageren</a></li>
-                    <li style="width: 20%;"><a href="#" onclick="goBack()" class="small_btn noclick terug">Terug</a></li>
+                    <li style="width: 25%;"><a href="#" class="small_btn noclick photos">Foto's</a></li>
+                    <li style="width: 25%;"><a href="#" class="small_btn noclick map">Locatie</a></li>
+                    <li style="width: 25%;"><a href="#" class="small_btn noclick share">Delen</a></li>
+                    <li style="width: 25%;"><a href="#" class="small_btn noclick mail">Reageren</a></li>
                     <?php
     if (in_category('percelen') && ($prev_url != 'http://www.remyvastgoed.com')) {
         ?>

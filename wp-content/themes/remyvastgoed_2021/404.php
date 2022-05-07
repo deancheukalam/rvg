@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 
 <div id="content" class="page404">
-  <?php get_sidebar(); ?>
   <div class="col-md-9 objects page">
 
     <h2>Pagina niet gevonden</h2>

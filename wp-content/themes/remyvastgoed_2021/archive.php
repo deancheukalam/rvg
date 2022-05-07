@@ -92,12 +92,14 @@ if (isset($_GET['query'])) {
         'Intervast Suriname' => 'sort_filter_aanbieders',
         'Daniella Thijssen' => 'sort_filter_aanbieders',
         'Evert Mehilal' => 'sort_filter_aanbieders',
-        'Sandra Vasilda' => 'sort_filter_aanbieders'
+        'Sandra Vasilda' => 'sort_filter_aanbieders',
+        'Expat Housing Suriname' => 'sort_filter_aanbieders',
+        'Sandra Slijngard' => 'sort_filter_aanbieders'
     ];
 
 
 //===================== display heading only categories
-if($activeCategory == 'Studentenkamers' || 
+if($activeCategory == 'Studentenkamers' ||
     $activeCategory == 'Commercieel onroerend goed' ||
     $activeCategory == 'In prijs verlaagd' ||
     $activeCategory == 'Interne financiering mogelijk' ||
@@ -120,36 +122,36 @@ if($activeCategory == 'Studentenkamers' ||
     $activeCategory == 'Verkocht ovb'){
 
     if($activeCategory == 'Verkocht ovb'){
-        echo'<h2>Verkocht onder voorbehoud</h2>';   
+        echo'<h2>Verkocht onder voorbehoud</h2>';
     }else{
-        echo'<h2>'.$activeCategory.'</h2>';        
+        echo'<h2>'.$activeCategory.'</h2>';
     }
-    
+
 
 }else{
 
-//========= display elements & heading if current active cat is in catArray 
-    foreach($catArr as $category => $filterName){                 
-        if($category == $activeCategory){              
+//========= display elements & heading if current active cat is in catArray
+    foreach($catArr as $category => $filterName){
+        if($category == $activeCategory){
                 echo '<h2>'.$category.'</h2>';
                 echo'<div id="sort_filter">';
                     dynamic_sidebar($filterName);
-                echo'</div>';             
-                echo do_shortcode('[search-form-results]'); 
+                echo'</div>';
+                echo do_shortcode('[search-form-results]');
                 break;
-        }            
+        }
 
     }
 }
 
-?>        
-      
- 
+?>
+
+
 
 <!-- //============================= objects first load block (display if no filter selected) -->
-<?php if(!isset($_SESSION['catFilter'])){  ?>  
+<?php if(!isset($_SESSION['catFilter'])){  ?>
 
-      <h2> <?php //single_cat_title( '', true ); ?></h2>        
+      <h2> <?php //single_cat_title( '', true ); ?></h2>
       <div id="objects_inner">
             <?php
 $args = array(
@@ -191,7 +193,7 @@ $the_query = new WP_Query( $args );
                                             <?php } ?>
 <?php
                     // GLIS stikkers
-                    glisStickers();	
+                    glisStickers();
                     // GLIS stikker
 ?>
 <?php
@@ -209,8 +211,8 @@ if (in_array("Thumbnail", $fields)) {
                     // if (is_category(array(184,120,172,113,119,112,118,110,117,114,197,198,199,120,121,208,209))) {
                     echo ' target="" ';
                     }
-                
-                    echo '><img src="' . $thumb . '" class="object_img img-responsive" /></a>'; 
+
+                    echo '><img src="' . $thumb . '" class="object_img img-responsive" /></a>';
                 }
 }
 ?>
@@ -225,10 +227,10 @@ if (in_array("Thumbnail", $fields)) {
                     echo '<a href="' . get_permalink() . '"';
                     echo '<span class="title">';
                     the_title();
-                    echo '</a>'; 
+                    echo '</a>';
                     echo '</span>';
-  
-                    // echo '</a>'; 
+
+                    // echo '</a>';
 
                     echo '<a href="' . get_permalink() . '"';
                     $current_cat = get_query_var("category");
@@ -236,15 +238,15 @@ if (in_array("Thumbnail", $fields)) {
                     $blog = get_term_by('id',"212","category");
 if (is_category(array(184,120,172,113,119,112,118,110,117,114,197,198,199,120,121,208,209,212))||$cat->parent == $blog->ID) {
 // if (is_category(array(184,120,172,113,119,112,118,110,117,114,197,198,199,120,121,208,209))) {
-    
-                    echo ' target="" '; 
+
+                    echo ' target="" ';
                     echo '></a>';
 }
 
-  if (in_array("Prijs", $fields)) {              
+  if (in_array("Prijs", $fields)) {
                     foreach($custom_fields['Prijs'] as $prijs){
                     if($prijs == 'n.o.t.k.' || strpos($prijs, 'vanaf') !== false || strpos($prijs, 'v.a.') !== false || strpos($prijs, 'tot') !== false || strpos($prijs, 'Verhuurd') !== false || strpos($prijs, 'PerceelsID toegekend') !== false || strpos($prijs, 'PerceelsID aangevraagd') !== false || strpos($prijs, 'on hold') !== false || strpos($prijs, 't.e.a.b.') !== false || strpos($prijs, '$') !== false || strpos($prijs, 'Verkocht ovb') !== false || $prijs == 'notk'){
-                        echo '<span class="prijs">' . $prijs . '</span>'; 
+                        echo '<span class="prijs">' . $prijs . '</span>';
                     }elseif(in_category('verkavelingsprojecten')) {
                         echo '<span class="prijs">v.a. € ' . number_format($prijs,0,",",".") . '</span>';
                     }else{
@@ -253,23 +255,23 @@ if (is_category(array(184,120,172,113,119,112,118,110,117,114,197,198,199,120,12
                     }
   }
   //   End Modification
-  
+
   if (in_array("Locatie", $fields)) {
                     foreach($custom_fields['Locatie'] as $locatie){
-                    echo '<span class="locatie">' . $locatie . '</span>'; 
+                    echo '<span class="locatie">' . $locatie . '</span>';
                     }
   }
 
   if (in_array("Objectnummer", $fields)) {
                     foreach($custom_fields['Objectnummer'] as $objectnummer){
-                    echo '<span class="objectnummer">#' . $objectnummer . '</span>'; 
+                    echo '<span class="objectnummer">#' . $objectnummer . '</span>';
                     }
   }
                     echo '<div class="object_inner_bottom">';
                     echo '<div class="object_inner_bottom_left">';
       if (in_array("Type", $fields)) {
                     foreach($custom_fields['Type'] as $type){
-                    echo '<span class="type">' . $type . '</span><br />'; 
+                    echo '<span class="type">' . $type . '</span><br />';
                     }
       }
       if (in_array("Interieur", $fields)) {
@@ -279,73 +281,73 @@ if (is_category(array(184,120,172,113,119,112,118,110,117,114,197,198,199,120,12
       }
       if (in_array("Titel", $fields)) {
                     foreach($custom_fields['Titel'] as $titel){
-                    echo '<span class="titel">' . $titel . '</span><br />'; 
+                    echo '<span class="titel">' . $titel . '</span><br />';
                     }
       }
       if (in_array("Perceel", $fields)) {
                     foreach($custom_fields['Perceel'] as $perceel){
                     if(in_category('verkavelingsprojecten')) {
-                        echo '<span class="perceel">Vanaf ' . number_format($perceel,0,",",".") . ' m²</span>'; 
+                        echo '<span class="perceel">Vanaf ' . number_format($perceel,0,",",".") . ' m²</span>';
                     }else{
-                        echo '<span class="perceel">' . number_format($perceel,0,",",".") . ' m²</span>'; 
+                        echo '<span class="perceel">' . number_format($perceel,0,",",".") . ' m²</span>';
                     }
                     }
       }
             echo '</div>';
-    
+
             echo '<div class="object_inner_bottom_right">';
 
 
 if (in_array("Prijs per m2", $fields)) {
             if(in_category('Verkavelingsprojecten')){
-            echo '<span class="prijsperm">Vanaf € ' . end($custom_fields['Prijs per m2']) . ' p/m²</span>'; 
+            echo '<span class="prijsperm">Vanaf € ' . end($custom_fields['Prijs per m2']) . ' p/m²</span>';
             }elseif(in_category('Alle percelen') || in_category('Zakelijke percelen')){
-            echo '<span class="prijsperm">€ ' . end($custom_fields['Prijs per m2']) . ' p/m²</span>'; 
+            echo '<span class="prijsperm">€ ' . end($custom_fields['Prijs per m2']) . ' p/m²</span>';
             }elseif(in_category('Alle Koopwoningen') || in_category('Huurwoningen') || in_category('Zakelijke kooppanden') ||  in_category('Zakelijke huurpanden') ||  in_category('Nog af te bouwen woningen') || in_category('Nieuwbouwwoningen')){
-            echo ''; 
+            echo '';
             }else{
             echo '';
-            // echo '<span class="prijsperm">€ ' . end($custom_fields['Prijs per m2']) . ' p/m²</span>'; 
+            // echo '<span class="prijsperm">€ ' . end($custom_fields['Prijs per m2']) . ' p/m²</span>';
             }
 }
-      
-      
-      
-        echo '<span class="kamers">'; 
+
+
+
+        echo '<span class="kamers">';
 if (in_array("Kamers", $fields)) {
         foreach($custom_fields['Kamers'] as $kamers){
-        echo  $kamers.' kamers'; 
+        echo  $kamers.' kamers';
         }
 }else{
-    echo '&nbsp;'; 
+    echo '&nbsp;';
 }
 
-            echo '</span>'; 
+            echo '</span>';
 
 
 
-            echo '<span class="slaapkamers">'; 
+            echo '<span class="slaapkamers">';
 if (in_array("Slaapkamers", $fields)) {
             foreach($custom_fields['Slaapkamers'] as $slaapkamers){
-            echo $slaapkamers. ' slaapkamers'; 
+            echo $slaapkamers. ' slaapkamers';
             }
 }else{
-        echo '&nbsp;'; 
+        echo '&nbsp;';
 }
 
-            echo '</span>'; 
-            echo '<span class="oppervlakte">'; 
+            echo '</span>';
+            echo '<span class="oppervlakte">';
 if (in_array("Oppervlakte", $fields)) {
             foreach($custom_fields['Oppervlakte'] as $oppervlakte){
-            echo number_format($oppervlakte,0,",",".") . ' m²'; 
+            echo number_format($oppervlakte,0,",",".") . ' m²';
             }
 }else{
-    echo '&nbsp;'; 
+    echo '&nbsp;';
 }
 
-echo '</span>'; 
-      
-      
+echo '</span>';
+
+
 
    echo '</div>';
   echo '</div>';
@@ -366,15 +368,15 @@ echo '</span>';
                                                             class="info_icon" /></span></a>
                                             </div>
                                         </div>
-                                        
+
                                         <?php endwhile; ?>
-                                        
-                                        
-                                        
-                                        <?php endif; ?>                                       
+
+
+
+                                        <?php endif; ?>
                                     </div>
                                 </div>
-                                
+
                             </div>
                             <div class="wp-pagination">
                                         <!-- <ol class="wp-paginate wpp-modern-grey font-inherit">

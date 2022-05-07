@@ -7536,17 +7536,9 @@ html, body{
         right: -2.4%;
     }
 
-
-
-/* =========================== object details page img nav menu, Terug btn color */
-.mobilenav > li.terug a{
-    color:red !important;
-
-}
-
 /* ===================================== object details page img nav li size */
 ul.mobilenav li{
-    width:20% !important;
+    width:25% !important;
     margin:0px !important;
 }
 
