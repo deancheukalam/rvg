@@ -13,8 +13,7 @@ if (isset($_GET['query'])) {
      unset($_SESSION['catFilter']);
  }
 
-
-//================ category array with sort filter to display in element
+ //================ category array with sort filter to display in element
     $catArr = [
         'Alle percelen' => 'sort_filter_percelen',
         'Verkavelingsprojecten' => 'sort_filter_verkavelingsproj',
@@ -130,10 +129,11 @@ if($activeCategory == 'Studentenkamers' ||
 
 }else{
 
+  echo'<h2>'.$activeCategory.'</h2>';
+
 //========= display elements & heading if current active cat is in catArray
     foreach($catArr as $category => $filterName){
         if($category == $activeCategory){
-                echo '<h2>'.$category.'</h2>';
                 echo'<div id="sort_filter">';
                     dynamic_sidebar($filterName);
                 echo'</div>';
