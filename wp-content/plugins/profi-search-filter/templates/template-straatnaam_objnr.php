@@ -1,31 +1,68 @@
-<?php if (in_category('In prijs verlaagd')) { ?>
-    <div class="object col-md-4 verlaagd">
+<?php 
+    if(in_category( 'Uitverkocht'))
+    { 
+        ?>
+        <div class="object col-md-4 uitverkocht">
         <?php wpfp_link() ?>
-<?php }elseif(in_category( 'In bewoonde staat')){ ?>
-                <div class="object col-md-4 bewoond">
-                <?php wpfp_link() ?>
-    <?php } elseif (in_category('Tijdelijk niet beschikbaar')) { ?>
+        <?php 
+    }
+    elseif(in_category( 'Verkocht'))
+    { 
+        ?>
+        <div class="object col-md-4 verkocht">
+        <?php wpfp_link() ?>
+        <?php
+    }
+    elseif(in_category( 'Verkocht ovb'))
+    { 
+        ?>
+        <div class="object col-md-4 verkocht_ovb">
+        <?php wpfp_link() ?>
+        <?php 
+    }
+    elseif(in_category( 'Verhuurd'))
+    { 
+        ?>
+        <div class="object col-md-4 verhuurd">
+        <?php wpfp_link() ?>
+        <?php 
+    }
+    elseif(in_category( 'Tijdelijk niet beschikbaar'))
+    { 
+        ?>
         <div class="object col-md-4 onhold">
-            <?php wpfp_link() ?>
-        <?php } elseif (in_category('Uitverkocht')) { ?>
-            <div class="object col-md-4 uitverkocht">
-                <?php wpfp_link() ?>
-            <?php } elseif (in_category('Verhuurd')) { ?>
-                <div class="object col-md-4 verhuurd">
-                    <?php wpfp_link() ?>
-                <?php } elseif (in_category('Verkocht')) { ?>
-                    <div class="object col-md-4 verkocht">
-                        <?php wpfp_link() ?>
-                    <?php } elseif (in_category('Verkocht ovb')) { ?>
-                        <div class="object col-md-4 verkocht_ovb">
-                            <?php wpfp_link() ?>
-                        <?php } elseif (in_category('Interne financiering mogelijk')) { ?>
-                            <div class="object col-md-4 interne_fin">
-                                <?php wpfp_link() ?>
-                            <?php } else { ?>
-                                <div class="object col-md-4">
-                                    <?php wpfp_link() ?>
-                                <?php } ?>
+        <?php wpfp_link() ?>
+        <?php 
+    }
+    elseif(in_category( 'In bewoonde staat'))
+    { 
+        ?>
+        <div class="object col-md-4 bewoond">
+        <?php wpfp_link() ?>
+        <?php 
+    }
+    elseif(in_category( 'Interne financiering mogelijk'))
+    { 
+        ?>
+        <div class="object col-md-4 interne_fin">
+        <?php wpfp_link() ?>
+        <?php 
+    }
+    elseif (in_category( 'In prijs verlaagd') ) 
+    { 
+        ?>
+        <div class="object col-md-4 verlaagd">
+        <?php wpfp_link() ?>
+        <?php 
+    }
+    else
+    {   
+        ?>
+        <div class="object col-md-4">
+        <?php wpfp_link() ?>
+        <?php 
+    } 
+    ?>
                                 <?php
 
                                 $custom_fields = get_post_custom(the_ID);
@@ -151,19 +188,54 @@
                                         <span class="info_txt">Meer informatie</span>
                                         <span><img src="<?php bloginfo('template_url'); ?>/images/info_icon.png" class="info_icon" /></span></a>
                                 </div>
-                                <?php if (in_category('In prijs verlaagd')) { ?>
-                                    <div id="verlaagd"></div>
-                                <?php } elseif (in_category('Tijdelijk niet beschikbaar')) { ?>
-                                    '<div id="onhold"></div>
-                                <?php } elseif (in_category('Uitverkocht')) { ?>
-                                    <div id="uitverkocht"></div>
-                                <?php } elseif (in_category('Verhuurd')) { ?>
-                                    <div id="verhuurd"></div>
-                                <?php } elseif (in_category('Verkocht')) { ?>
-                                    <div id="verkocht"></div>
-                                <?php } elseif (in_category('Verkocht ov')) { ?>
-                                    <div id="verkocht_ovb"></div>
-                                <?php } elseif (in_category('Interne financiering mogelijk')) { ?>
-                                    <div id="interne_fin"></div>
-                                <?php } ?>
+                                <?php 
+                                    if (in_category('Uitverkocht')) 
+                                    { 
+                                        ?>
+                                        <div id="uitverkocht"></div>
+                                        <?php
+                                    } 
+                                    elseif (in_category('Verkocht')) 
+                                    { 
+                                        ?>
+                                        <div id="verkocht"></div>
+                                        <?php 
+                                    } 
+                                    elseif (in_category('Verkocht ov')) 
+                                    { 
+                                        ?>
+                                        <div id="verkocht_ovb"></div>
+                                        <?php 
+                                    } 
+                                    elseif (in_category('Verhuurd')) 
+                                    { 
+                                        ?>
+                                        <div id="verhuurd"></div>
+                                        <?php 
+                                    } 
+                                    elseif (in_category('Tijdelijk niet beschikbaar')) 
+                                    { 
+                                        ?>
+                                        <div id="onhold"></div>
+                                        <?php 
+                                    } 
+                                    elseif (in_category('In bewoonde staat')) 
+                                    { 
+                                        ?>
+                                        <div id="bewoond"></div>
+                                        <?php 
+                                    } 
+                                    elseif (in_category('Interne financiering mogelijk')) 
+                                    { 
+                                        ?>
+                                        <div id="interne_fin"></div>
+                                        <?php 
+                                    } 
+                                    elseif (in_category('In prijs verlaagd')) 
+                                    { 
+                                        ?>
+                                        <div id="verlaagd"></div>
+                                        <?php 
+                                    } 
+                                    ?>
                                 </div>

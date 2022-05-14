@@ -6,37 +6,75 @@
     <h2>Uitgelichte objecten</h2>
     <div id="objects_inner">
       <?php query_posts($query_string . '&cat=45&showposts=24'); ?>
-      <?php if(have_posts()) : ?>
-      <?php while(have_posts()) : the_post(); ?>
-      <?php if(in_category( 'In prijs verlaagd')) { ?>
-      <div class="object col-md-4 verlaagd">
-		  <?php wpfp_link() ?>
-      <?php }elseif(in_category( 'In bewoonde staat')){ ?>
-      <div class="object col-md-4 bewoond">
-      <?php wpfp_link() ?>
-      <?php }elseif(in_category( 'Tijdelijk niet beschikbaar')){ ?>
-      <div class="object col-md-4 onhold">
-		  <?php wpfp_link() ?>
-      <?php }elseif(in_category( 'Uitverkocht')){ ?>
-      <div class="object col-md-4 uitverkocht">
-		  <?php wpfp_link() ?>
-      <?php }elseif(in_category( 'Verhuurd')){ ?>
-      <div class="object col-md-4 verhuurd">
-		  <?php wpfp_link() ?>
-      <?php }elseif(in_category( 'Verkocht')){ ?>
-      <div class="object col-md-4 verkocht">
-		  <?php wpfp_link() ?>
-      <?php }elseif(in_category( 'Verkocht ovb')){ ?>
-      <div class="object col-md-4 verkocht_ovb">
-		  <?php wpfp_link() ?>
-	  <?php }elseif(in_category( 'Interne financiering mogelijk')){ ?>
-      <div class="object col-md-4 interne_fin">
-		  <?php wpfp_link() ?>
-      <?php }else{ ?>
-      <div class="object col-md-4">
-      <span>
-		  <?php wpfp_link() ?>
-      <?php } ?>
+      <?php 
+        if(have_posts()) : ?>
+            <?php while(have_posts()) : the_post(); ?>
+            <?php 
+                if(in_category( 'Uitverkocht'))
+                { 
+                    ?>
+                    <div class="object col-md-4 uitverkocht">
+                    <?php wpfp_link() ?>
+                    <?php 
+                }
+                elseif(in_category( 'Verkocht'))
+                { 
+                    ?>
+                    <div class="object col-md-4 verkocht">
+                    <?php wpfp_link() ?>
+                    <?php
+                }
+                elseif(in_category( 'Verkocht ovb'))
+                { 
+                    ?>
+                    <div class="object col-md-4 verkocht_ovb">
+                    <?php wpfp_link() ?>
+                    <?php 
+                }
+                elseif(in_category( 'Verhuurd'))
+                { 
+                    ?>
+                    <div class="object col-md-4 verhuurd">
+                    <?php wpfp_link() ?>
+                    <?php 
+                }
+                elseif(in_category( 'Tijdelijk niet beschikbaar'))
+                { 
+                    ?>
+                    <div class="object col-md-4 onhold">
+                    <?php wpfp_link() ?>
+                    <?php 
+                }
+                elseif(in_category( 'In bewoonde staat'))
+                { 
+                    ?>
+                    <div class="object col-md-4 bewoond">
+                    <?php wpfp_link() ?>
+                    <?php 
+                }
+                elseif(in_category( 'Interne financiering mogelijk'))
+                { 
+                    ?>
+                    <div class="object col-md-4 interne_fin">
+                    <?php wpfp_link() ?>
+                    <?php 
+                }
+                elseif (in_category( 'In prijs verlaagd') ) 
+                { 
+                    ?>
+                    <div class="object col-md-4 verlaagd">
+                    <?php wpfp_link() ?>
+                    <?php 
+                }
+                else
+                {   
+                    ?>
+                    <div class="object col-md-4">
+                    <?php wpfp_link() ?>
+                    <?php 
+                } 
+                ?>
+
         <?php
 
           $custom_fields = get_post_custom(the_ID);

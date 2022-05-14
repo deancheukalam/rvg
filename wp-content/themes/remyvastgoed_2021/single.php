@@ -59,30 +59,67 @@ $prev_url = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '';
     }
     ?>
                 <?php wpfp_link()?>
-            </div>
-            <div id="bottom_section">
+                </div>
+                <div id="bottom_section">
                 <?php wpfp_link()?>
                 <div
-                <?php if (in_category('In prijs verlaagd')){?>
-               class="verlaagd"
-               <?php } elseif (in_category('In bewoonde staat')) {?>
-                    class="bewoond"
-                    <?php } elseif (in_category('Tijdelijk niet beschikbaar')) {?>
+                <?php 
+                if (in_category('Uitverkocht')) 
+                {
+                    ?>
+                    class="uitverkocht"
+                    <?php 
+                }
+                elseif (in_category('Verkocht')) 
+                {
+                    ?>
+                    class="verkocht"
+                    <?php 
+                } 
+                elseif (in_category('Verkocht ovb')) 
+                {
+                    ?>
+                    class="verkocht_ovb"
+                    <?php 
+                } 
+                elseif (in_category('Verhuurd')) 
+                {
+                    ?>
+                    class="verhuurd"
+                    <?php 
+                }
+                elseif (in_category('Tijdelijk niet beschikbaar')) 
+                {
+                    ?>
                     class="onhold"
-                        <?php } elseif (in_category('Uitverkocht')) {?>
-                        class="uitverkocht"
-                            <?php } elseif (in_category('Verhuurd')) {?>
-                            class="verhuurd"
-                                <?php } elseif (in_category('Verkocht')) {?>
-                                class="verkocht"
-                                    <?php } elseif (in_category('Verkocht ovb')) {?>
-                                    class="verkocht_ovb"
-                                        <?php } elseif (in_category('Interne financiering mogelijk')) {?>
-                                        class="interne_fin"
-                                            <?php } else {?>
-                                            class=""
-                                                <?php }?>
-                                                >
+                    <?php 
+                } 
+                elseif (in_category('In bewoonde staat')) 
+                {
+                    ?>
+                    class="bewoond"
+                    <?php 
+                } 
+                elseif (in_category('Interne financiering mogelijk')) 
+                {
+                    ?>
+                    class="interne_fin"
+                    <?php 
+                } 
+                elseif (in_category('In prijs verlaagd'))
+                {
+                    ?>
+                    class="verlaagd"
+                    <?php 
+                } 
+                else 
+                {
+                    ?>
+                    class=""
+                    <?php 
+                }
+                ?>
+                        >
 
                                             <div class="kenmerken">
                                                 <h2>Kenmerken</h2>
