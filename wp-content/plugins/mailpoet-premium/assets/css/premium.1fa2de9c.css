@@ -1,0 +1,48 @@
+.mailpoet_stat_grey {
+  color: #707070;
+}
+.mailpoet_stat_big {
+  font-size: 23px;
+  font-weight: 600;
+  line-height: normal;
+}
+.mailpoet_stat_spaced {
+  margin-bottom: 1rem;
+}
+.mailpoet_stat_triple-spaced {
+  margin-bottom: 3rem;
+}
+.form-field-row-filters div {
+  margin-bottom: 10px;
+}
+.button.stats-create-segment {
+  margin-top: 3px;
+}
+div.event-selection,
+div.event-option-selection:not(:empty),
+div.event-segment-selection,
+div.event-scheduling-time-duration-selection,
+div.event-scheduling-time-interval-selection {
+  padding-right: 5px;
+}
+div.events-conditions-container div {
+  float: left;
+}
+div.events-conditions-container:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+div.events-conditions-container input {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+div.automatic-listing-woocommerce-feedback-container {
+  position: absolute;
+  margin-top: 2em;
+}
+@media screen and (max-width: 783px) {
+  div.automatic-listing-woocommerce-feedback-container {
+    bottom: -2em;
+  }
+}

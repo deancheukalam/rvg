@@ -1,0 +1,9 @@
+<div style="clear: both;"></div>
+</div>
+</div>
+<div id="footer">
+    <div style="width: 915px; padding-left: 25px; margin-left: auto; margin-right: auto; display: block; text-align: center;">Remy Vastgoed &copy; - all rights reserved</div>
+</div>
+
+<?php include(TEMPLATEPATH . '/includes/scripts.php'); ?>
+<?php wp_footer(); ?>

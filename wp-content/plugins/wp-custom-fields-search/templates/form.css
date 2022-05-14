@@ -1,0 +1,8 @@
+.wpcfs-search-form label {
+  display: inline; }
+.wpcfs-search-form .wpcfs-input {
+  width: 90%;
+  width: calc( 100% - 20px );
+  margin: 10px; }
+
+/*# sourceMappingURL=form.css.map */

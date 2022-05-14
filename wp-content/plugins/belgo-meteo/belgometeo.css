@@ -1,0 +1,57 @@
+.belgo_meteo_center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding:  5px 0 5px 0;
+}
+.belgo_meteo img {
+  height:   auto;
+  border:   none;
+  margin:   0;
+}
+
+.belgo_meteo div#externalforecast {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.belgo_meteo div#externalobservations {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.belgo_meteo h3 {
+    margin: 10px 0 10px 10px;
+}
+
+.belgo_meteo h3 a {
+    color: #fff;
+}
+
+.belgo_meteo .icon {
+    vertical-align: middle;
+}
+
+.belgo_meteo .lightblue {
+    vertical-align: middle;
+}
+
+.belgo_meteo .first {
+    vertical-align: middle;
+}
+
+.belgo_meteo .wind {
+    vertical-align: middle;
+}
+
+#externalobservations h2 {
+    line-height:    20px !important;
+}
+
+.belgo_meteo .belgo_meteo_metbel {
+    width:220px;
+    background-color: #fff;
+    text-align: center;
+}

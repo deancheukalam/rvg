@@ -1,0 +1,595 @@
+# Translation of Plugins - Post Views Counter - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Post Views Counter - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-08-19 08:32:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Post Views Counter - Stable (latest release)\n"
+
+#: includes/settings.php:568
+msgid "The post views chart will be displayed for the post types that are being counted."
+msgstr "De grafiek met berichtweergaven wordt weergegeven voor de berichttypen die worden geteld."
+
+#: includes/settings.php:567
+msgid "Enable to display the post views chart at the toolbar."
+msgstr "Schakel in om de grafiek met berichtweergaven op de toolbar weer te geven."
+
+#: includes/settings.php:252
+msgid "Toolbar Chart"
+msgstr "Toolbar grafiek"
+
+#: includes/dashboard.php:431
+msgid "Post"
+msgstr "Bericht"
+
+#: includes/dashboard.php:118
+msgid "Displays the list of most viewed posts and pages on your website."
+msgstr "Toont de lijst met de meest bekeken berichten en pagina's op je site."
+
+#: includes/dashboard.php:118
+msgid "Top Posts"
+msgstr "Top berichten"
+
+#: includes/dashboard.php:94
+msgid "Displays the chart of most viewed post types for a selected time period."
+msgstr "Toont de kaart van de meest bekeken berichttypes voor een geselecteerde tijdsperiode."
+
+#: includes/dashboard.php:455 includes/widgets.php:58
+msgid "No most viewed posts found"
+msgstr "Geen meest bekeken berichten gevonden"
+
+#: includes/columns.php:541
+msgid "%s post view"
+msgid_plural "%s post views"
+msgstr[0] "%s bericht bekeken"
+msgstr[1] "%s berichten bekeken"
+
+#: post-views-counter.php:253
+msgid "<a href=\"%s\" class=\"pvc-dismissible-notice\" target=\"_blank\" rel=\"noopener\">Ok, you deserve it</a><br /><a href=\"javascript:void(0);\" class=\"pvc-dismissible-notice pvc-delay-notice\" rel=\"noopener\">Nope, maybe later</a><br /><a href=\"javascript:void(0);\" class=\"pvc-dismissible-notice\" rel=\"noopener\">I already did</a>"
+msgstr "<a href=\"%s\" class=\"pvc-dismissible-notice\" target=\"_blank\" rel=\"noopener\"> Ok, je verdient het</a><br /><a href=\"javascript:void(0);\" class=\"pvc-dismissible-notice pvc-delay-notice\" rel=\"noopener\">Nee, misschien later</a><br /><a href=\"javascript:void(0);\" class=\"pvc-dismissible-notice\" rel=\"noopener\">ik heb het al gedaan</a>"
+
+#: post-views-counter.php:253
+msgid "founder of <a href=\"%s\" target=\"_blank\">dFactory</a> plugins."
+msgstr "oprichter van <a href=\"%s\" target=\"_blank\">dFactory</a> plugins."
+
+#: post-views-counter.php:253
+msgid "Your help is much appreciated. Thank you very much"
+msgstr "Je hulp wordt zeer gewaardeerd. Hartelijk dank"
+
+#: post-views-counter.php:253
+msgid "Could you please do me a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation."
+msgstr "Kunt je mij alsjeblieft een GROTE gunst bewijzen en het een 5-sterrenbeoordeling geven op WordPress om ons te helpen het woord te verspreiden en onze motivatie te vergroten."
+
+#: post-views-counter.php:253
+msgid "Hey, you've been using <strong>Post Views Counter</strong> for more than %s."
+msgstr "Hé, je gebruikt de <strong>Bericht Views Counter</strong> al meer dan %s."
+
+#. Author of the plugin
+msgid "Digital Factory"
+msgstr "Digital Factory"
+
+#: includes/columns.php:87 includes/columns.php:91 includes/columns.php:118
+#: includes/columns.php:122
+msgid "You are not allowed to edit this item."
+msgstr "Je mag dit item niet bewerken."
+
+#: includes/widgets.php:166
+msgid "Display post author?"
+msgstr "Auteur van bericht weergeven?"
+
+#: includes/widgets.php:68
+msgid "Ordered list"
+msgstr "Bestelde lijst"
+
+#: includes/widgets.php:67
+msgid "Unordered list"
+msgstr "Ongeordende lijst"
+
+#: includes/settings.php:317
+msgid "Optionally try the Fast AJAX experimental method, usually 10+ times faster than Javascript or REST API."
+msgstr "Probeer optioneel de Fast AJAX experimentele methode, meestal 10+ keer sneller dan Javascript of REST API."
+
+#: includes/settings.php:42
+msgid "Fast AJAX"
+msgstr "Snelle AJAX"
+
+#: includes/settings.php:456
+msgid "Enable to prevent bypassing the counts interval (for e.g. using incognito browser window or by clearing cookies)."
+msgstr "Schakel dit in om te voorkomen dat het telinterval wordt omzeild (bijvoorbeeld door een incognito browservenster te gebruiken of door cookies te wissen)."
+
+#: includes/settings.php:238
+msgid "Strict counts"
+msgstr "Strikte tellingen"
+
+#: post-views-counter.php:536
+msgid "Are you sure you want to delete all existing data?"
+msgstr "Weet je zeker dat je alle bestaande gegevens wil verwijderen?"
+
+#: includes/update.php:117
+msgid "Thank you! Datebase was succesfully updated."
+msgstr "Dank u! Database is bijgewerkt."
+
+#: includes/update.php:76
+msgid "Run the Update"
+msgstr "Voer de update uit"
+
+#: includes/update.php:75
+msgid "<strong>Post Views Counter</strong> - this version requires a database update. Make sure to back up your database first."
+msgstr "<strong> Bericht Views Counter </strong> - deze versie vereist een database-update. Zorg ervoor dat je eerst een backup van je database maakt."
+
+#: includes/settings.php:646
+msgid "Error occurred. All existing data were not deleted."
+msgstr "Fout opgetreden. Alle bestaande gegevens zijn niet verwijderd."
+
+#: includes/settings.php:644
+msgid "All existing data deleted succesfully."
+msgstr "Alle bestaande gegevens zijn succesvol verwijderd."
+
+#: includes/settings.php:470
+msgid "Delete ALL the existing post views data."
+msgstr "ALLE bestaande gegevens van berichtweergaven verwijderen."
+
+#: includes/settings.php:469
+msgid "Delete views"
+msgstr "Weergaven verwijderen"
+
+#: includes/settings.php:467
+msgid "Override existing views data."
+msgstr "Overschrijf bestaande weergavegegevens."
+
+#: includes/settings.php:467
+msgid "Import views"
+msgstr "Weergaven importeren"
+
+#: includes/settings.php:317
+msgid "Select the method of collecting post views data. If you are using any of the caching plugins select Javascript or REST API (if available)."
+msgstr "Selecteer de methode voor het verzamelen van berichtweergavegegevens. Als je een van de caching-plugins gebruikt, selecteer je Javascript of REST API (indien beschikbaar)."
+
+#: includes/settings.php:239
+msgid "Tools"
+msgstr "Gereedschap"
+
+#: includes/settings.php:193
+msgid "Check out our other <a href=\"%s\" target=\"_blank\">WordPress plugins</a>."
+msgstr "Bekijk onze andere <a href=\"%s\" target=\"_blank\"> WordPress-plugins</a>."
+
+#: includes/settings.php:192
+msgid "Blog about it & link to the <a href=\"%s\" target=\"_blank\">plugin page</a>."
+msgstr "Blog erover en link naar de <a href=\"%s\" target=\"_blank\"> pluginpagina</a>."
+
+#: includes/settings.php:191
+msgid "<a href=\"%s\" target=\"_blank\">Rate it 5</a> on WordPress.org"
+msgstr "<a href=\"%s\" target=\"_blank\">Waardeer het met 5</a> op WordPress.org"
+
+#: includes/settings.php:188
+msgid "If you are having problems with this plugin, please browse it's <a href=\"%s\" target=\"_blank\">Documentation</a> or talk about them in the <a href=\"%s\" target=\"_blank\">Support forum</a>"
+msgstr "Als je problemen hebt met deze plugin, blader dan door de <a href=\"%s\" target=\"_blank\"> documentatie</a> of praat erover in de <a href=\"%s\" target=\"_blank\"> Ondersteuningsforum</a>"
+
+#: includes/settings.php:46
+msgid "REST API"
+msgstr "REST API"
+
+#: includes/dashboard.php:215
+msgid "Year"
+msgstr "Jaar"
+
+#: includes/counter.php:247
+msgid "Post type excluded."
+msgstr "Berichttype uitgesloten."
+
+#: includes/columns.php:114 includes/counter.php:241
+msgid "Invalid post ID."
+msgstr "Ongeldig bericht-ID."
+
+#: includes/counter.php:233
+msgid "REST API method is disabled."
+msgstr "REST API-methode is uitgeschakeld."
+
+#: includes/settings.php:233
+msgid "Count Interval"
+msgstr "Telinterval"
+
+#: includes/settings.php:508
+msgid "Select page types where the views count will be displayed."
+msgstr "Selecteer paginatypen waar het aantal weergaven wordt weergegeven."
+
+#: includes/settings.php:248
+msgid "User Type"
+msgstr "Gebruikerstype"
+
+#: includes/settings.php:247
+msgid "Page Type"
+msgstr "Paginatype"
+
+#: includes/settings.php:246
+msgid "Post Type"
+msgstr "Berichten Type"
+
+#: includes/settings.php:98
+msgid "Search results"
+msgstr "Zoekresultaten"
+
+#: includes/settings.php:97
+msgid "Single pages"
+msgstr "Enkele pagina's"
+
+#: includes/settings.php:96
+msgid "Archives"
+msgstr "Archieven"
+
+#: includes/settings.php:95
+msgid "Home"
+msgstr "Huis"
+
+#: includes/dashboard.php:230 includes/dashboard.php:316
+msgid "Total Views"
+msgstr "Totaal aantal weergaven"
+
+#: includes/dashboard.php:147 includes/dashboard.php:150
+#: includes/dashboard.php:387 includes/dashboard.php:390
+#: includes/dashboard.php:504
+msgid "You do not have permission to access this page."
+msgstr "Je hebt geen toestemming voor deze pagina."
+
+#: includes/settings.php:634
+msgid "There was no post views data to import."
+msgstr "Er waren geen gegevens voor berichtviews om te importeren."
+
+#: includes/settings.php:414 includes/settings.php:599
+msgid "Use it to hide the post views counter from selected user roles."
+msgstr "Gebruik het om de teller voor berichtweergaven te verbergen voor geselecteerde gebruikersrollen."
+
+#. Author URI of the plugin
+msgid "http://www.dfactory.eu/"
+msgstr "http://www.dfactory.eu/"
+
+#. Description of the plugin
+msgid "Post Views Counter allows you to display how many times a post, page or custom post type had been viewed in a simple, fast and reliable way."
+msgstr "Met Bericht Views Counter kan je op een eenvoudige, snelle en betrouwbare manier laten zien hoe vaak een bericht, pagina of aangepast berichttype is bekeken."
+
+#. Plugin URI of the plugin
+msgid "http://www.dfactory.eu/plugins/post-views-counter/"
+msgstr "http://www.dfactory.eu/plugins/post-views-counter/"
+
+#: post-views-counter.php:614
+msgid "Settings"
+msgstr "Instellingen"
+
+#: post-views-counter.php:590
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: post-views-counter.php:535
+msgid "Are you sure you want to reset these settings to defaults?"
+msgstr "Weet je zeker dat je deze instellingen naar de standaardinstellingen wil terugzetten?"
+
+#: includes/widgets.php:171
+msgid "Thumbnail size"
+msgstr "Thumbnailgrootte"
+
+#: includes/widgets.php:168
+msgid "Display post thumbnail?"
+msgstr "Bericht thumbnail weergeven?"
+
+#: includes/widgets.php:164
+msgid "Display post excerpt?"
+msgstr "Bericht samenvatting weergeven?"
+
+#: includes/widgets.php:162
+msgid "Display post views?"
+msgstr "Berichtweergaven weergeven?"
+
+#: includes/widgets.php:138
+msgid "Order"
+msgstr "Bestellen"
+
+#: includes/widgets.php:134
+msgid "No posts message"
+msgstr "Geen berichtenbericht"
+
+#: includes/widgets.php:130
+msgid "Number of posts to show"
+msgstr "Aantal te tonen berichten"
+
+#: includes/widgets.php:118
+msgid "Post Types"
+msgstr "Berichttypen"
+
+#: includes/widgets.php:114
+msgid "Title"
+msgstr "Titel"
+
+#: includes/widgets.php:63
+msgid "Descending"
+msgstr "Aflopend"
+
+#: includes/widgets.php:62
+msgid "Ascending"
+msgstr "Oplopend"
+
+#: includes/widgets.php:43
+msgid "Displays a list of the most viewed posts"
+msgstr "Geeft een lijst weer van de meest bekeken berichten"
+
+#: includes/widgets.php:42 includes/widgets.php:48
+msgid "Most Viewed Posts"
+msgstr "Meest bekeken berichten"
+
+#: includes/settings.php:834
+msgid "Display settings restored to defaults."
+msgstr "Weergave-instellingen hersteld naar standaardwaarden."
+
+#: includes/settings.php:829
+msgid "General settings restored to defaults."
+msgstr "Algemene instellingen hersteld naar standaardwaarden."
+
+#: includes/settings.php:632
+msgid "Post views data imported succesfully."
+msgstr "Gegevens van weergaven met succes geïmporteerd."
+
+#: includes/settings.php:405 includes/settings.php:590
+msgid "Use it to hide the post views counter from selected type of visitors."
+msgstr "Gebruik het om de teller voor berichtweergaven te verbergen voor het geselecteerde type bezoekers."
+
+#: includes/settings.php:557
+msgid "Enter the post views icon class. Any of the <a href=\"%s\" target=\"_blank\">Dashicons</a> classes are available."
+msgstr "Voer de pictogramklasse voor berichtweergaven in. Alle klassen van <a href=\"%s\" target=\"_blank\"> Dashicons</a> zijn beschikbaar."
+
+#: includes/settings.php:546
+msgid "Choose how to display the post views counter."
+msgstr "Kies hoe de teller voor berichtweergaven moet worden weergegeven."
+
+#: includes/settings.php:527
+msgid "Select where would you like to display the post views counter. Use [post-views] shortcode for manual display."
+msgstr "Selecteer waar je de teller voor berichtweergaven wil weergeven. Gebruik de [post-views] shortcode voor handmatige weergave."
+
+#: includes/settings.php:491
+msgid "Enable to delete all plugin data on deactivation."
+msgstr "Schakel dit in om alle plugin gegevens bij deactivering te verwijderen."
+
+#: includes/settings.php:481
+msgid "Enable to restrict post views editing to admins only."
+msgstr "Schakel dit in om het bewerken van berichtweergaven te beperken tot alleen beheerders."
+
+#: includes/settings.php:468
+msgid "Import post views data from WP-PostViews plugin."
+msgstr "Importeer gegevens van berichtweergaven vanuit de WP-BerichtViews plugin."
+
+#: includes/settings.php:446
+msgid "Enter the IP addresses to be excluded from post views count."
+msgstr "Voer de IP-adressen in die moeten worden uitgesloten van het aantal weergaven van berichten."
+
+#: includes/settings.php:445
+msgid "Add my current IP"
+msgstr "Voeg mijn huidige IP toe"
+
+#: includes/settings.php:445
+msgid "Add new"
+msgstr "Nieuwe toevoegen"
+
+#: includes/settings.php:434 includes/settings.php:440
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: includes/settings.php:387
+msgid "How often to flush cached view counts from the object cache into the database. This feature is used only if a persistent object cache is detected and the interval is greater than 0 (number zero). When used, view counts will be collected and stored in the object cache instead of the database and will then be asynchronously flushed to the database according to the specified interval.<br /><strong>Notice:</strong> Potential data loss may occur if the object cache is cleared/unavailable for the duration of the interval."
+msgstr "Hoe vaak de cache-weergave teller moet doorgeschoven van de cache naar de database. Deze functie wordt alleen gebruikt als een persistente objectcache wordt gedetecteerd en het interval groter is dan 0 (nummer nul). Bij gebruik worden het aantal weergaven verzameld en opgeslagen in de objectcache in plaats van in de database en vervolgens asynchroon naar de database gespoeld volgens het opgegeven interval. <br /><strong> Opmerking: </strong> mogelijk gegevensverlies optreden als de objectcache is gewist/niet beschikbaar is voor de duur van het interval."
+
+#: includes/settings.php:367
+msgid "Delete single day post views data older than specified above. Enter 0 (number zero) if you want to preserve your data regardless of its age."
+msgstr "Verwijder enkele dag na het bekijken van gegevens die ouder zijn dan hierboven gespecificeerd. Voer 0 (nummer nul) in als je je gegevens wil behouden, ongeacht hun leeftijd."
+
+#: includes/settings.php:347
+msgid "Enter the time between single user visit count."
+msgstr "Voer de tijd in tussen het aantal bezoeken voor één gebruiker."
+
+#: includes/settings.php:327
+msgid "Enable to display post views count column for each of the selected post types."
+msgstr "Schakel deze optie in om de kolom voor het aantal weergaven van elk van de geselecteerde berichttypen weer te geven."
+
+#: includes/settings.php:298
+msgid "Select post types for which the views count will be displayed."
+msgstr "Selecteer berichttypen waarvoor het aantal weergaven wordt weergegeven."
+
+#: includes/settings.php:281
+msgid "Select post types for which post views will be counted."
+msgstr "Selecteer berichttypen waarvoor berichtweergaven worden geteld."
+
+#: includes/settings.php:263
+msgid "Enter the label for the post views counter field."
+msgstr "Voer het label in voor het veld voor de teller voor berichtweergaven."
+
+#: includes/settings.php:251
+msgid "Icon Class"
+msgstr "Pictogram klasse"
+
+#: includes/settings.php:250 includes/widgets.php:150
+msgid "Display Style"
+msgstr "Weergavestijl"
+
+#: includes/settings.php:249
+msgid "Position"
+msgstr "Positie"
+
+#: includes/settings.php:245
+msgid "Post Views Label"
+msgstr "Label voor berichtweergaven"
+
+#: includes/settings.php:244
+msgid "Display settings"
+msgstr "Weergave instellingen"
+
+#: includes/settings.php:240
+msgid "Deactivation"
+msgstr "Deactivering"
+
+#: includes/settings.php:237
+msgid "Exclude IPs"
+msgstr "IP's uitsluiten"
+
+#: includes/settings.php:236
+msgid "Exclude Visitors"
+msgstr "Bezoekers uitsluiten"
+
+#: includes/settings.php:235
+msgid "Flush Object Cache Interval"
+msgstr "Legen object cache interval"
+
+#: includes/settings.php:234
+msgid "Reset Data Interval"
+msgstr "Gegevensinterval resetten"
+
+#: includes/settings.php:232
+msgid "Restrict Edit"
+msgstr "Bewerken beperken"
+
+#: includes/settings.php:231
+msgid "Post Views Column"
+msgstr "Kolom met weergaven"
+
+#: includes/settings.php:230
+msgid "Counter Mode"
+msgstr "Tellermodus"
+
+#: includes/settings.php:229
+msgid "Post Types Count"
+msgstr "Aantal berichttypen"
+
+#: includes/settings.php:228
+msgid "General settings"
+msgstr "Instellingen"
+
+#: includes/settings.php:212
+msgid "Reset to defaults"
+msgstr "Standaardwaarden herstellen"
+
+#: includes/settings.php:190
+msgid "Do you like this plugin?"
+msgstr "Vind je deze plugin leuk?"
+
+#: includes/settings.php:187
+msgid "Need support?"
+msgstr "Ondersteuning nodig?"
+
+#. Plugin Name of the plugin
+#: includes/dashboard.php:32 includes/settings.php:160
+#: includes/settings.php:173 includes/settings.php:185
+msgid "Post Views Counter"
+msgstr "Post Views Counter"
+
+#: includes/settings.php:83
+msgid "Display"
+msgstr "Scherm"
+
+#: includes/settings.php:77
+msgid "General"
+msgstr "Algemeen"
+
+#: includes/settings.php:72
+msgid "label"
+msgstr "label"
+
+#: includes/settings.php:71
+msgid "icon"
+msgstr "pictogram"
+
+#: includes/settings.php:67
+msgid "manual"
+msgstr "handleiding"
+
+#: includes/settings.php:66
+msgid "after the content"
+msgstr "na de inhoud"
+
+#: includes/settings.php:65
+msgid "before the content"
+msgstr "voor de inhoud"
+
+#: includes/settings.php:61
+msgid "selected user roles"
+msgstr "geselecteerde gebruikersrollen"
+
+#: includes/settings.php:60
+msgid "guests"
+msgstr "gasten"
+
+#: includes/settings.php:59
+msgid "logged in users"
+msgstr "ingelogde gebruikers"
+
+#: includes/settings.php:58
+msgid "robots"
+msgstr "robots"
+
+#: includes/settings.php:54
+msgid "years"
+msgstr "jaar"
+
+#: includes/settings.php:53
+msgid "months"
+msgstr "maanden"
+
+#: includes/settings.php:52
+msgid "weeks"
+msgstr "weken"
+
+#: includes/settings.php:51
+msgid "days"
+msgstr "dagen"
+
+#: includes/settings.php:50
+msgid "hours"
+msgstr "uren"
+
+#: includes/settings.php:49
+msgid "minutes"
+msgstr "minuten"
+
+#: includes/settings.php:41
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: includes/settings.php:40
+msgid "PHP"
+msgstr "PHP"
+
+#: includes/functions.php:476
+msgid "No Posts"
+msgstr "Geen berichten"
+
+#: includes/cron.php:66
+msgid "Post Views Counter cache flush interval"
+msgstr "Berichtweergaven teller cache legen interval"
+
+#: includes/cron.php:61
+msgid "Post Views Counter reset daily counts interval"
+msgstr "Berichtweergaven reset dagelijkse teller interval"
+
+#: includes/columns.php:156 includes/columns.php:215
+msgid "Cancel"
+msgstr "Be&euml;indig"
+
+#: includes/columns.php:214
+msgid "OK"
+msgstr "OK"
+
+#: includes/columns.php:155 includes/columns.php:210
+msgid "Adjust the views count for this post."
+msgstr "Pas het aantal weergaven voor dit bericht aan."
+
+#: includes/columns.php:206
+msgid "Edit"
+msgstr "Bewerken"
+
+#: includes/columns.php:51 includes/columns.php:154 includes/columns.php:197
+#: includes/columns.php:348 includes/columns.php:354 includes/columns.php:404
+#: includes/dashboard.php:94 includes/dashboard.php:198
+#: includes/dashboard.php:207 includes/dashboard.php:216
+#: includes/dashboard.php:302 includes/dashboard.php:432
+msgid "Post Views"
+msgstr "Berichtweergaven"

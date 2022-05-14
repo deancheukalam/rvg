@@ -1,0 +1,502 @@
+# Translation of Plugins - Clean Login - Development (trunk) in Dutch
+# This file is distributed under the same license as the Plugins - Clean Login - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-07-22 16:12:33+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Clean Login - Development (trunk)\n"
+
+#. Author URI of the plugin/theme
+msgid "https://codection.com"
+msgstr "https://codection.com"
+
+#. Author of the plugin/theme
+msgid "codection"
+msgstr "codection"
+
+#. Description of the plugin/theme
+msgid "Responsive Frontend Login and Registration plugin. A plugin for displaying login, register, editor and restore password forms through shortcodes. [clean-login] [clean-login-edit] [clean-login-register] [clean-login-restore]"
+msgstr "Responsive Frontend Login en Registratie plugin. Een plugin voor het weergeven van inloggen, registreren, bewerken en herstellen wachtwoord formulieren via shortcodes. [clean-login] [clean-login-edit] [clean-login-register] [clean-login-restore]"
+
+#. Plugin URI of the plugin/theme
+msgid "http://cleanlogin.codection.com"
+msgstr "http://cleanlogin.codection.com"
+
+#. Plugin Name of the plugin/theme
+msgid "Clean Login"
+msgstr "Clean Login"
+
+#: content/restore-new.php:12
+msgid "Your new password is"
+msgstr "Je nieuwe wachtwoord is"
+
+#: content/restore-form.php:22
+msgid "Restore password"
+msgstr "Wachtwoord herstellen"
+
+#: content/restore-form.php:11
+msgid "Username (or E-mail)"
+msgstr "Gebruikersnaam (of e-mailadres)"
+
+#: content/register-form.php:59
+msgid "Choose your role:"
+msgstr "Kies je rol:"
+
+#: content/register-form.php:45
+msgid "Type the text above"
+msgstr "Typ bovenstaande tekst"
+
+#: content/login-preview.php:13
+msgid "Log out"
+msgstr "Uitloggen"
+
+#: content/login-form.php:27
+msgid "Remember?"
+msgstr "Onthouden?"
+
+#: content/login-form.php:17
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: content/login-form.php:13 content/register-form.php:19
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: content/login-edit.php:49
+msgid "Update profile"
+msgstr "Update profiel"
+
+#: content/login-edit.php:42 content/register-form.php:38
+msgid "Confirm password"
+msgstr "Wachtwoord bevestigen"
+
+#: content/login-edit.php:37 content/register-form.php:33
+msgid "New password"
+msgstr "Nieuw wachtwoord"
+
+#: content/login-edit.php:32
+msgid "If you would like to change the password type a new one. Otherwise leave this blank."
+msgstr "Voor het wijzigen van het wachtwoord typ een nieuwe of laat dit leeg."
+
+#: content/login-edit.php:30
+msgid "Change password"
+msgstr "Wijzig wachtwoord"
+
+#: content/login-edit.php:24 content/register-form.php:24
+msgid "E-mail"
+msgstr "E-mailadres"
+
+#: content/login-edit.php:19 content/register-form.php:13
+msgid "Last name"
+msgstr "Achternaam"
+
+#: content/login-edit.php:14 content/register-form.php:10
+msgid "First name"
+msgstr "Voornaam"
+
+#: content/login-edit.php:9
+msgid "General information"
+msgstr "Algemene informatie"
+
+#: clean-login.php:1313
+msgid "Settings"
+msgstr "Instellingen"
+
+#: clean-login.php:1287
+msgid "Title:"
+msgstr "Titel:"
+
+#: clean-login.php:1283
+msgid "User login status"
+msgstr "Gebruikers inlog status"
+
+#: clean-login.php:1270 content/login-form.php:36
+msgid "Lost password?"
+msgstr "Wachtwoord vergeten?"
+
+#: clean-login.php:1269 content/login-form.php:40 content/register-form.php:85
+msgid "Register"
+msgstr "Registreren"
+
+#: clean-login.php:1268 content/login-form.php:22 content/restore-new.php:21
+msgid "Log in"
+msgstr "Inloggen"
+
+#: clean-login.php:1262
+msgid "Logout"
+msgstr "Uitloggen"
+
+#: clean-login.php:1259 content/login-preview.php:15
+msgid "Edit my profile"
+msgstr "Mijn profiel aanpassen"
+
+#: clean-login.php:1229
+msgid "Use this widget to show the user login status and Clean Login links."
+msgstr "Gebruik deze widget om de inlogstatus van gebruikers en de Login wissen link weer te geven."
+
+#: clean-login.php:1062
+msgid "Save Changes"
+msgstr "Wijzigingen bewaren"
+
+#: clean-login.php:1052
+msgid "URL after logout (if blank then homepage)"
+msgstr "URL na uitloggen (leeg dan naar de homepage)"
+
+#: clean-login.php:1050
+msgid "Redirect after log out?"
+msgstr "Omleiden na uitloggen?"
+
+#: clean-login.php:1046
+msgid "URL after login (if blank then homepage)"
+msgstr "URL na inloggen (als leeg dan homepage)"
+
+#: clean-login.php:1044
+msgid "Redirect after log in?"
+msgstr "Omleiden na inloggen?"
+
+#: clean-login.php:1042
+msgid "Redirections"
+msgstr "Omleidingen "
+
+#: clean-login.php:1038
+msgid "This feature cannot be used with the automatic login after registration"
+msgstr "Deze functie kan niet worden gebruikt bij automatische inloggen na registratie"
+
+#: clean-login.php:1037
+msgid "Validate user registration through an email?"
+msgstr "Bevestig de gebruikersregistratie via een e-mail?"
+
+#: clean-login.php:1035
+msgid "Add name and surname?"
+msgstr "Naam en achternaam toevoegen?"
+
+#: clean-login.php:1031
+msgid "URL after registration (if blank then homepage)"
+msgstr "URL na registratie (als leeg dan homepagina)"
+
+#: clean-login.php:1029
+msgid "Automatically Login after registration?"
+msgstr "Automatisch inloggen na registratie?"
+
+#: clean-login.php:1027
+msgid "Registration"
+msgstr "Registratie"
+
+#: clean-login.php:1023
+msgid "Only ask for password once on registration form?"
+msgstr "Vraag het wachtwoord slechts éénmaal op het registratieformulier?"
+
+#: clean-login.php:1021
+msgid "Single Password"
+msgstr "Enkel wachtwoord"
+
+#: clean-login.php:1017
+msgid "Allow user to use email as username? If you want to use both, WP Email Login plugin will help you"
+msgstr "Sta gebruiker toe om e-mail als gebruikersnaam te gebruiken? Als je beide wilt gebruiken, zal WP Email Login plugin je helpen"
+
+#: clean-login.php:1015
+msgid "Use Email as Username"
+msgstr "Gebruik e-mailadres als gebruikersnaam"
+
+#: clean-login.php:1011
+msgid "Target URL"
+msgstr "Doel URL"
+
+#: clean-login.php:1010
+msgid "Terms and conditions message"
+msgstr "Algemene voorwaarden bericht"
+
+#: clean-login.php:1009
+msgid "Accept terms / conditions in the registration form?"
+msgstr "Accepteer voorwaarden / condities in het registratie formulier?"
+
+#: clean-login.php:1007
+msgid "Terms and conditions"
+msgstr "Voorwaarden en condities"
+
+#: clean-login.php:1003
+msgid "Please use HMTL tags for all formatting. And also you can use:"
+msgstr "Gebruik HTML-tags voor alle opmaak. En ook kun je gebruiken:"
+
+#: clean-login.php:1002
+msgid "Enable email notification for new registered users?"
+msgstr "E-mailmelding inschakelen voor nieuwe geregistreerde gebruikers?"
+
+#: clean-login.php:1000
+msgid "Email notification"
+msgstr "Emailmelding"
+
+#: clean-login.php:995
+msgid "Enable password complexity?"
+msgstr "Wachtwoordcomplexiteit inschakelen?"
+
+#: clean-login.php:993
+msgid "Password complexity"
+msgstr "Wachtwoordcomplexiteit"
+
+#: clean-login.php:989
+msgid "Hide username from the preview form."
+msgstr "Verberg gebruikersnaam uit het voorbeeldformulier."
+
+#: clean-login.php:988
+msgid "Hide username?"
+msgstr "Gebruikersnaam verbergen?"
+
+#: clean-login.php:986
+msgid "Hide username"
+msgstr "Gebruikersnaam verbergen"
+
+#: clean-login.php:978
+msgid "This feature allows you to choose the role from the frontend, with the selected roles you want to show. You can also define an standard predefined role through a shortcode parameter, e.g. [clean-login-register role=\"contributor\"]. Anyway, you need to choose only the role(s) you want to accept to avoid security/infiltration issues."
+msgstr "Met deze functie kun je de rol van het frontend kiezen, met de geselecteerde rollen die je wilt tonen. Je kunt ook een standaard vooraf gedefinieerde rol definiëren via een shortcode parameter, b.v. [clean-login-register role=\"contributor\"]. In ieder geval moet je alleen de rol(en) selecteren die je wilt accepteren om beveiligings- / infiltratieproblemen te voorkomen."
+
+#: clean-login.php:977
+msgid "Choose the role(s) in the registration form?"
+msgstr "Kies de rol(en) in het registratieformulier?"
+
+#: clean-login.php:975
+msgid "Standby role disables all the capabilities for new users, until the administrator changes. It usefull for site with restricted components."
+msgstr "Standby-rol schakelt alle mogelijkheden voor nieuwe gebruikers uit, tot de beheerder dit verandert. Het is handig voor de sites met afgeschermde onderdelen."
+
+#: clean-login.php:974
+msgid "Enable Standby role?"
+msgstr "De standby-rol inschakelen?"
+
+#: clean-login.php:972
+msgid "User role"
+msgstr "Gebruikersrol"
+
+#: clean-login.php:953
+msgid "For captcha usage the PHP-GD library needs to be enabled in your server/hosting."
+msgstr "Voor captcha-gebruik moet de PHP-GD-bibliotheek in je server/hosting zijn ingeschakeld."
+
+#: clean-login.php:952
+msgid "Honeypot antispam detection is enabled by default."
+msgstr "Honeypot anti spamdetectie is standaard ingeschakeld."
+
+#: clean-login.php:951
+msgid "Enable captcha?"
+msgstr "Captcha gebruiken?"
+
+#: clean-login.php:949 clean-login.php:957
+msgid "Antispam protection"
+msgstr "Antispam bescherming"
+
+#: clean-login.php:945
+msgid "Please note that you can only log in through <strong>wp-login.php</strong> and this plugin. <strong>wp-admin</strong> permalink will be inaccessible."
+msgstr "Houd er rekening mee dat je alleen kunt inloggen via <strong>wp-login.php </strong> en deze plugin. <strong>wp-admin</strong> permalink zal ontoegankelijk zijn."
+
+#: clean-login.php:944
+msgid "Disable dashboard access for non-admin users?"
+msgstr "Schakel de toegang tot dashboard voor niet-beheerdersgebruikers uit?"
+
+#: clean-login.php:942
+msgid "Dashboard access"
+msgstr "Dashboard toegang"
+
+#: clean-login.php:938
+msgid "Hide admin bar for non-admin users?"
+msgstr "Verberg toolbar voor niet-beheerders?"
+
+#: clean-login.php:936
+msgid "Admin bar"
+msgstr "Toolbar"
+
+#: clean-login.php:900
+msgid "Settings saved."
+msgstr "Instellingen opgeslagen."
+
+#: clean-login.php:862
+msgid "Options"
+msgstr "Opties"
+
+#: clean-login.php:857
+msgid "This shortcode contains the restore (lost password?) form. If you include in a page/post a link will appear on your login form."
+msgstr "Deze shortcode bevat het herstel (wachtwoord vergeten?) formulier. Als je deze toevoegt aan een page/post verschijnt er een link op je login formulier."
+
+#: clean-login.php:848
+msgid "This shortcode contains the register form. If you include in a page/post a link will appear on your login form."
+msgstr "Deze shortcode bevat het registratieformulier. Als je het in een pagina / bericht opneemt, verschijnt er een link op je aanmeldingsformulier."
+
+#: clean-login.php:839
+msgid "This shortcode contains the profile editor. If you include in a page/post a link will appear on your login preview."
+msgstr "Deze shortcode bevat de profiel editor. Als je het in een pagina / bericht opneemt, verschijnt een link in je login-voorvertoning."
+
+#: clean-login.php:830
+msgid "This shortcode contains login form and login information."
+msgstr "Deze shortcode bevat het inlogformulier en inlog informatie."
+
+#: clean-login.php:828 clean-login.php:837 clean-login.php:846
+#: clean-login.php:855
+msgid "Used <a href=\"%s\">here</a>"
+msgstr "Gebruikt <a href=\"%s\">hier</a>"
+
+#: clean-login.php:826 clean-login.php:835 clean-login.php:844
+#: clean-login.php:853
+msgid "Currently not used"
+msgstr "Momonteel niet gebruikt"
+
+#: clean-login.php:818
+msgid "Below you can check the plugin status regarding the shortcodes usage and the pages/posts which contain  it."
+msgstr "Hieronder kun je de plugin-status raadplegen over het gebruik van de shortcodes en de pagina's / berichten die deze bevatten."
+
+#: clean-login.php:816
+msgid "Clean Login status"
+msgstr "Inlogstatus schoonmaken"
+
+#: clean-login.php:801
+msgid "Do you like it?"
+msgstr "Vind je het leuk?"
+
+#: clean-login.php:788
+msgid "Admin area"
+msgstr "Admin gedeelte"
+
+#: clean-login.php:759
+msgid "Donate"
+msgstr "Doneren"
+
+#: clean-login.php:573
+msgid "Restore your password"
+msgstr "Je wachtwoord herstellen"
+
+#: clean-login.php:571
+msgid "Use the following link to restore your password: <a href='%s'>restore your password</a> <br/><br/>%s<br/>"
+msgstr "Gebruik de volgende link om je wachtwoord te herstellen: <a href='%s'>Herstel je wachtwoord</a> <br/><br/>%s<br/>"
+
+#: clean-login.php:491
+msgid "New user"
+msgstr "Nieuwe gebruiker"
+
+#: clean-login.php:489
+msgid "New user registered: %s <br/>"
+msgstr "Nieuwe gebruiker geregistreerd: %s <br/>"
+
+#: clean-login.php:487
+msgid "New user registered: %s <br/><br/>Please change the role from 'Stand By' to 'Subscriber' or higher to allow full site access"
+msgstr "Nieuwe gebruiker geregistreerd: %s <br/><br/>wijzig de rol van 'Stand By' naar 'Abonnee' of hoger voor volledige website toegang"
+
+#: clean-login.php:460
+msgid "Activate your account"
+msgstr "Activeer je account"
+
+#: clean-login.php:458
+msgid "Use the following link to activate your account: <a href='%s'>activate your account</a>.<br/><br/>%s<br/>"
+msgstr "Gebruik de volgende link voor het activeren van je account: <a href='%s'>Activeer je account</a>.<br/><br/>%s<br/>"
+
+#: clean-login.php:187
+msgid "You are now logged in. It makes no sense to restore your account"
+msgstr "Je bent nu ingelogd. Het is niet nodig om je account te herstellen."
+
+#: clean-login.php:176
+msgid "An error has ocurred sending the email"
+msgstr "Er is iets fout gegaan bij het versturen van de e-mail"
+
+#: clean-login.php:174
+msgid "You may receive an email with the activation link"
+msgstr "Je hebt een e-mail ontvangen met de activatielink"
+
+#: clean-login.php:172
+msgid "You will receive an email with the activation link"
+msgstr "Je ontvangt een e-mail met de activatielink"
+
+#: clean-login.php:149
+msgid "You are now logged in. It makes no sense to register a new user"
+msgstr "Je bent nu ingelogd. Het is niet nodig nogmaals te registreren"
+
+#: clean-login.php:143
+msgid "must be checked"
+msgstr "Moet gecontroleerd worden"
+
+#: clean-login.php:141
+msgid "Something strange has ocurred while created the new user"
+msgstr "Iets vreemds is gebeurd bij het aanmaken van de nieuwe gebruiker"
+
+#: clean-login.php:139
+msgid "CAPTCHA is not valid, please try again"
+msgstr "CAPTCHA is niet correct, probeer opnieuw"
+
+#: clean-login.php:137
+msgid "Email is not valid"
+msgstr "E-mailadres is niet correct"
+
+#: clean-login.php:135
+msgid "Passwords must be identical and filled"
+msgstr "Wachtwoord moet gelijk zijn en ingevuld"
+
+#: clean-login.php:133
+msgid "Last name is not valid"
+msgstr "Achternaam is niet correct"
+
+#: clean-login.php:131
+msgid "First name is not valid"
+msgstr "Voornaam is niet correct"
+
+#: clean-login.php:129 clean-login.php:178
+msgid "Username is not valid"
+msgstr "Gebruikersnaam is niet correct"
+
+#: clean-login.php:125
+msgid "New user created"
+msgstr "Nieuwe gebruiker aangemaakt"
+
+#: clean-login.php:123
+msgid "Please confirm your account, you will receive an email"
+msgstr "Bevestig je account, je ontvangt een e-mail"
+
+#: clean-login.php:121 clean-login.php:123
+msgid "User created"
+msgstr "Gebruiker aangemaakt"
+
+#: clean-login.php:94
+msgid "You need to be logged in to edit your profile"
+msgstr "Je moet ingelogd zijn voor het wijzigen van je profiel"
+
+#: clean-login.php:88
+msgid "Something strange has ocurred"
+msgstr "Iets vreemd is voorgevallen"
+
+#: clean-login.php:86
+msgid "Error updating email"
+msgstr "Fout bij het bijwerken van het e-mailadres"
+
+#: clean-login.php:84
+msgid "Passwords must be identical"
+msgstr "Wachtwoorden moeten gelijk zijn"
+
+#: clean-login.php:82 clean-login.php:127 clean-login.php:996
+msgid "Passwords must be eight characters including one upper/lowercase letter, one special/symbol character and alphanumeric characters. Passwords should not contain the user's username, email, or first/last name."
+msgstr "Wachtwoorden moeten acht tekens bevatten, waaronder een hoofdletter / kleine letter, een speciaal / symboolkarakter en alfanumerieke tekens. Wachtwoorden mogen de gebruikersnaam, e-mail of voornaam of achternaam niet bevatten."
+
+#: clean-login.php:80
+msgid "Information updated"
+msgstr "Informatie bijgewerkt"
+
+#: clean-login.php:52
+msgid "Successfully activated"
+msgstr "Succesvol geactiveerd"
+
+#: clean-login.php:50
+msgid "Your account is currently disabled"
+msgstr "Je account is momenteel uitgeschakeld"
+
+#: clean-login.php:48
+msgid "Something went wrong while activating your user"
+msgstr "Er ging iets fout bij het activeren van je gebruiker"
+
+#: clean-login.php:46
+msgid "Successfully logged out!"
+msgstr "Je bent uitgelogd."
+
+#: clean-login.php:44
+msgid "Wrong credentials"
+msgstr "Verkeerde referenties"
+
+#: clean-login.php:42
+msgid "Successfully logged in!"
+msgstr "Je bent ingelogd."
