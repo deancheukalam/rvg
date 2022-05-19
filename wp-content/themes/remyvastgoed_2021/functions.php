@@ -267,7 +267,6 @@ add_filter( 'wp_get_attachment_url', 'wp_update_attachment_url_domain', 10, 2 );
 function wp_update_attachment_url_domain ($url, $post_id)
 {
    $url = str_ireplace('//localhost/remyvastgoed', 'www.remyvastgoed.com', $url);
-	 echo "I'm here";
    return $url;
 }
 

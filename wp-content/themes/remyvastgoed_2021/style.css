@@ -4579,7 +4579,7 @@ body.single .sidebar .onhold {
 .single .objects a.small_btn.active {
     border-bottom: solid 1px #1d1d1d !important;
     text-align: center !important;
-    /* width: auto !important; */
+    width: 103% !important;
     height: 17px !important;
     /* text-shadow: -1px 0 0px !important;  */
 }
