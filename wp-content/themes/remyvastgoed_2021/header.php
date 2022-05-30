@@ -134,7 +134,7 @@
     </script>
     <script src="https://kit.fontawesome.com/529607b095.js" crossorigin="anonymous"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/loader.js"></script>
-
+    <meta name="description" content="De Site waar je het meeste aanbod kan vinden"> 
 </head>
 
 <body <?php body_class();?>>
