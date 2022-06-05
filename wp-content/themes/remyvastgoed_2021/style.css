@@ -2357,6 +2357,7 @@ form#wysija-subscriptions input.button-primary.wysija:hover {
 div.sf-widget-checkbox-wrapper label {
     display: block;
     padding-left: 20px;
+    padding-top: 1px;
     position: relative;
     margin-bottom: 3px;
 }
@@ -9159,3 +9160,5 @@ textarea[name="your-message"] {
 #button-container{
   margin-top: -3px;
 }
+
+
