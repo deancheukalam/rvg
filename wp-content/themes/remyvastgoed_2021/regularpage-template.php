@@ -32,29 +32,29 @@ Template Name: Regular Page Template
         <!-- <div class="stick"> -->
             
             <div class="banner">
-                <a href="#">
-                    <img src="<?php echo site_url(); ?>/wp-content/themes/remyvastgoed/images/rbc_banner.jpg" />
+                <a href="https://www.republicbanksr.com/" target="_blank">
+                    <img src="<?php echo site_url(); ?>/wp-content/themes/remyvastgoed_2021/images/rbc_banner.jpg" />
                 </a>
             </div>
 
             <div class="banner">
-                <a href="#">
-                    <img src="<?php echo site_url(); ?>/wp-content/themes/remyvastgoed/images/lont.jpg" />
+                <a href="https://lont-lalmahomed.nl/" target="_blank">
+                    <img src="<?php echo site_url(); ?>/wp-content/themes/remyvastgoed_2021/images/lont.jpg" />
                 </a>
             </div>
 
             <div class="banner">
-                <a href="#">
-                    <img src="<?php echo site_url(); ?>/wp-content/themes/remyvastgoed/images/banner_geldleningen.png" />
+                <a href="<?php echo site_url(); ?>/particulierefinanciering/">
+                    <img src="<?php echo site_url(); ?>/wp-content/themes/remyvastgoed_2021/images/banner_geldleningen.png" />
                 </a>
             </div>
 
             <div class="banner">
-
                 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fremyvastgoed%2F&tabs=timeline&width=278&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=192711138031785" 
-        width="277" height="130" style="border:none;overflow:hidden" 
-        scrolling="no" frameborder="0" allowTransparency="true" 
-        allow="encrypted-media"></iframe>
+                    width="277" height="130" style="border:none;overflow:hidden" 
+                    scrolling="no" frameborder="0" allowTransparency="true" 
+                    allow="encrypted-media">
+                </iframe>
             </div>
 
         <!-- </div> -->

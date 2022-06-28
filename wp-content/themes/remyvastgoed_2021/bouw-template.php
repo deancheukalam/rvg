@@ -33,19 +33,19 @@ Template Name: Regular Page Template
             
             <div class="banner">
                 <a href="#">
-                    <img src="<?php echo site_url(); ?>/wp-content/themes/remyvastgoed/images/rbc_banner.jpg" />
+                    <img src="<?php echo site_url(); ?>/wp-content/themes/remyvastgoed_2021/images/rbc_banner.jpg" />
                 </a>
             </div>
 
             <div class="banner">
                 <a href="#">
-                    <img src="<?php echo site_url(); ?>/wp-content/themes/remyvastgoed/images/lont.jpg" />
+                    <img src="<?php echo site_url(); ?>/wp-content/themes/remyvastgoed_2021/images/lont.jpg" />
                 </a>
             </div>
 
             <div class="banner">
                 <a href="#">
-                    <img src="<?php echo site_url(); ?>/wp-content/themes/remyvastgoed/images/banner_geldleningen.png" />
+                    <img src="<?php echo site_url(); ?>/wp-content/themes/remyvastgoed_2021/images/banner_geldleningen.png" />
                 </a>
             </div>
 
